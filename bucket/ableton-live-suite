@@ -19,7 +19,10 @@
             "Ableton Live"
         ]
     ],
-    "checkver": "ableton",
+        "checkver": {
+        "url": "https://www.ableton.com/en/release-notes/live-12/",
+        "regex": "Release-Notes-([\\d.]+).html"
+    },
     "autoupdate": {
         "url": "https://cdn-downloads.ableton.com/channels/$version/ableton_live_suite_$version_64.zip",
         "extract_dir": "live/$version"

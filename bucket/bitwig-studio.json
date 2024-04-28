@@ -1,9 +1,9 @@
 {
-    "version": "5.1.1",
+    "version": "5.1.8",
     "description": "Bitwig studio is a digital audio workstation (DAW) for modern music production and performance.",
     "homepage": "https://www.bitwig.com/",
     "license": "Proprietary",
-    "url": "https://downloads.bitwig.com/5.1.1/Bitwig%20Studio%205.1.1.msi",
+    "url": "https://downloads.bitwig.com/5.1.8/Bitwig%20Studio%205.1.8.msi",
     "hash": "bf5669ce39d41ec93e8ec139f9a0d0d8a554c64cecf7411819a788d17b1826e8",
     "extract_dir": "Bitwig Studio/5.1.8",
     "bin": [

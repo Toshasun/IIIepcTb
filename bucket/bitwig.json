@@ -18,7 +18,10 @@
             "Bitwig Studio"
         ]
     ],
-    "checkver": "github",
+       "checkver": {
+        "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows",
+        "regex": ""
+    },
     "autoupdate": {
         "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows",
         "extract_dir": "Bitwig Studio/$version"

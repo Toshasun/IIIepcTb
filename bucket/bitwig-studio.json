@@ -18,12 +18,12 @@
             "Bitwig Studio"
         ]
     ],
-    "checkver": {
-        "url": "https://www.bitwig.com/download/",
-        "regex": "Release-Notes-([\\d.]+).html"
-    },
+   # "checkver": {
+   #     "url": "https://www.bitwig.com/download/",
+   #     "regex": "Release-Notes-([\\d.]+).html"
+   # },
     "autoupdate": {
-        "url": "https://downloads.bitwig.com/$version/Bitwig%20Studio%20$version.msi",
+        "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows",
         "extract_dir": "Bitwig Studio/$version"
-    }
+  
 }

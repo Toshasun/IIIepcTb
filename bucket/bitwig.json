@@ -23,7 +23,7 @@
         "regex": "Bitwig Studio ([\\d.]+)"
     },
     "autoupdate": {
-        "baseurl": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows/Bitwig Studio $version.msi",
+        "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows/Bitwig Studio $version.msi",
         "extract_dir": "Bitwig Studio/$version"
     }
 }

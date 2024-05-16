@@ -19,8 +19,8 @@
         ]
     ],
        "checkver": {
-        "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows",
-        "regex": ""
+        "url": "https://www.bitwig.com/previous_releases",
+        "regex": "Version ([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://www.bitwig.com/dl/Bitwig%20Studio/$version/installer_windows",

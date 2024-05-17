@@ -1,28 +1,15 @@
 {
-  "version": "3.6.1.5687",
-  "description": "Uninstall Tool 3rd party modified version, maintained by ghxi.com.",
-  "homepage": "https://crystalidea.com/uninstall-tool",
-  "license": {
-    "identifier": "Proprietary",
-    "url": "https://crystalidea.com/eula"
-  },
-  "notes": "Features: <https://www.ghxi.com/uninstalltool.html>",
-  "url": "https://pan.jiemi.workers.dev/?file=/zd423/UninstallTool_3.6.1.5687_Portable.7z",
-  "hash": "d724981e180a47abc290d1c6943bf71ecd6c932b524a52349fb8dd6c4eafcbb7",
-  "extract_dir": "UninstallTool_3.6.1.5687_Portable\\UninstallToolPortable",
-  "shortcuts": [
-    [
-      "UninstallToolPortable.exe",
-      "Uninstaller Tool"
+    "version": "3.7.4",
+    "description": "Remove unwanted software, make your computer clean and even faster with an effective, powerful and easy-to-use Windows app",
+    "homepage": "https://crystalidea.com/uninstall-tool",
+    "license": "Proprietary",
+    "url": "https://crystalidea.com/downloads/uninstalltool_portable.zip",
+    "hash": "762448795aee14a4e3eca6f1fa7ccc27dc1aa587f8eb884636e75cb447d78896",
+
+    "shortcuts": [
+        [
+            "UninstallToolPortable.exe",
+            "Uninstaller Tool"
+        ]
     ]
-  ],
-  "checkver": {
-    "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/oneindex.txt",
-    "regex": "(?<filename>UninstallTool_([\\d.]+)_Portable\\.7z)",
-    "reverse": true
-  },
-  "autoupdate": {
-    "url": "https://pan.jiemi.workers.dev/?file=/zd423/$matchFilename",
-    "extract_dir": "UninstallTool_$version_Portable\\UninstallToolPortable"
-  }
 }
